@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div[class*=box]{
+            /* [class*=box]-It selects all Classes that contain same name. */
+            /* [class^=box]-It selects all the Classes that start with same name*/
+            /* [class$=box]-It selects all the Classes that end with same name */
+            height: 200px;
+            width: 500px;
+            border: 5px groove brown;
+            color: aqua;
+            text-align:center;
+            padding: 10%;
+            box-sizing:border-box;
+        }
+        .box-1,.box-3{
+            background-color: orange;
+        }
+        .box-2,.box-4{
+            background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1">Lorem ipsum dolor sit amet.</div><br>
+    <div class="box-2">Lorem ipsum dolor sit amet.</div><br>
+    <div class="box-3">Lorem ipsum dolor sit amet.</div><br>
+    <div class="box-4">Lorem ipsum dolor sit amet.</div>
+    
+</body>
+</html>
