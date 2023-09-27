@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attachment</title>
+    <style>
+        div[class*=image]{
+            height: 700px;
+            width: 100%;
+            border: 10px dashed darkblue;
+            font-size: 40px;
+            color: crimson;
+            padding-top: 20%;
+            box-sizing: border-box;
+            text-align: center;
+            background-image: url(../../Images/road-in-amazing-summer-mountains-picjumbo-com.jpg);
+            
+        }
+        .image01{
+            background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment:scroll;
+        }
+        .image02{
+            background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+        }
+        .image03{
+            background-size: 30%;
+                background-repeat: repeat;
+                /* background-attachment:local; */
+        }
+        p{
+            font-size: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="image01">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Unde numquam cupiditate est.
+        Repellendus architecto porro modi? <br> Quisquam vitae, placeat non quibusdam nesciunt deserunt unde ut quod, <br>
+        architecto repellat eius veritatis?</div><br><br>
+        <p>Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Eius accusantium rerum hic odio placeat! <br> Quisquam.</p>
+    <div class="image02">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Consectetur, assumenda saepe
+        tempore provident ipsum sequi. <br> Soluta suscipit non beatae sed! Molestias minus illum placeat <br> enim 
+        eligendi doloribus, repellat perspiciatis! Mollitia!</div><br><br>
+        <p>Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Eius accusantium rerum hic odio placeat! <br> Quisquam.</p>
+    <div class="image03">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Quasi eveniet provident
+        quibusdam voluptatem maiores illo fugit neque eaque. <br> Omnis quis deleniti excepturi consequuntur aut 
+        et facilis doloribus, incidunt eveniet quae?</div><br><br>
+</body>
+</html>

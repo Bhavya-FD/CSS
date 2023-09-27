@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display flex</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        body {
+            background-color: tan;
+        }
+
+        .nav {
+            height: 60px;
+            width: 100%;
+            background-color: black;
+            /* border: 1px solid black; */
+            color: aliceblue;
+            display: flex;
+            justify-content: baseline;
+            justify-content: start;
+            justify-content: end;
+            justify-content: center;
+            justify-content: space-around;
+            justify-content: space-between;
+            justify-content: space-evenly;
+            position: fixed;
+            /* margin-bottom: 50px; */
+        }
+
+        .flex {
+            color: rgb(8, 8, 37);
+            width: 90%;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        .flex:hover {
+            color: rgb(20, 6, 97);
+        }
+
+        .row {
+            margin-top: 50px;
+            display: flex;
+            /* flex-direction: row; */
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .col-50 {
+            align-content: center;
+            width: 50%;
+        }
+
+        .col-33 {
+            width: 33.33%;
+        }
+
+        .col-25 {
+            width: 25%;
+        }
+
+        .col-10 {
+            width: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <h2>Logo</h2>
+        <h2>Contact</h2>
+        <h2>Logo</h2>
+        <h2>Information</h2>
+    </div>
+    <h1>Display Flex</h1>
+    <div class="flex">
+        <div class="row">
+            <div class="col-50"><img src="../../Images/painting-mountain-lake-with-mountain-background.jpg" alt="">
+            </div>
+            <div class="col-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, aperiam!</div>
+        </div>
+        <div class="row">
+            <div class="col-33"><img src="../../Images/painting-mountain-lake-with-mountain-background.jpg" alt="">
+            </div>
+            <div class="col-33">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, aperiam!</div>
+            <div class="col-33"><img src="../../Images/painting-mountain-lake-with-mountain-background.jpg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25"><img src="../../Images/painting-mountain-lake-with-mountain-background.jpg" alt="">
+            </div>
+            <div class="col-25">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, aperiam!</div>
+            <div class="col-25"><img src="../../Images/painting-mountain-lake-with-mountain-background.jpg" alt="">
+            </div>
+            <div class="col-25">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, aperiam!</div>
+        </div>
+        <div class="row">
+            <div class="col-10"><img src="../../Images/painting-mountain-lake-with-mountain-background.jpg" alt="">
+            </div>
+            <div class="col-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, aperiam!</div>
+            <div class="col-10"><img src="../../Images/painting-mountain-lake-with-mountain-background.jpg" alt="">
+            </div>
+            <div class="col-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, aperiam!</div>
+            <div class="col-10"><img src="../../Images/painting-mountain-lake-with-mountain-background.jpg" alt="">
+            </div>
+            <div class="col-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, aperiam!</div>
+            <div class="col-10"><img src="../../Images/painting-mountain-lake-with-mountain-background.jpg" alt="">
+            </div>
+            <div class="col-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, aperiam!</div>
+            <div class="col-10"><img src="../../Images/painting-mountain-lake-with-mountain-background.jpg" alt="">
+            </div>
+            <div class="col-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, aperiam!</div>
+
+        </div>
+        <div class="row"></div>
+    </div>
+</body>
+
+</html>
